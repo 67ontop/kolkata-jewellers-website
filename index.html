@@ -3,11 +3,339 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kolkata Jewellers</title>
+    <title>Kolkata Jewellers | Online Silver & Fashion Jewellery</title>
     <meta
       name="description"
-      content="Kolkata Jewellers is a premium silver and fashion jewelry store offering silver and fashion jewelry items."
+      content="Shop Kolkata Jewellers for silver, fashion, polki, moissanite, and wedding-inspired jewellery with WhatsApp enquiries."
     />
+    <meta property="og:title" content="Kolkata Jewellers" />
+    <meta
+      property="og:description"
+      content="A CaratLane-inspired jewellery storefront for elegant everyday, festive, and gifting pieces."
+    />
+    <meta property="og:image" content="assets/wedding-exclusive.png" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#5b2777" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <span>✨ New festive edits are now available</span>
+      <a href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20please%20share%20your%20latest%20festive%20jewellery%20designs." target="_blank" rel="noreferrer">Enquire on WhatsApp</a>
+    </div>
+
+    <header class="site-header">
+      <div class="header-main">
+        <a class="brand-mark" href="#top" aria-label="Kolkata Jewellers home">
+          <span class="brand-mark__crest">KJ</span>
+          <span class="brand-mark__text">
+            <strong>Kolkata Jewellers</strong>
+            <small>A premium silver & fashion jewellery store</small>
+          </span>
+        </a>
+
+        <form class="search-bar" role="search">
+          <label class="sr-only" for="siteSearch">Search jewellery</label>
+          <span aria-hidden="true">⌕</span>
+          <input id="siteSearch" type="search" placeholder="Search rings, necklaces, polki, silver..." />
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="header-actions" aria-label="Quick actions">
+          <a href="#stores">Stores</a>
+          <a href="https://instagram.com/kolkatajewellers?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="header-actions__pill" href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20your%20jewellery%20items." target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+          Menu
+        </button>
+      </div>
+
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="#collections">New In</a>
+        <a href="#categories">Rings</a>
+        <a href="#categories">Earrings</a>
+        <a href="#categories">Necklaces</a>
+        <a href="#bestsellers">Bestsellers</a>
+        <a href="#experience">Gifting</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <a
+      class="floating-action"
+      href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20your%20jewellery%20items."
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Message Kolkata Jewellers on WhatsApp"
+    >
+      WA
+    </a>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Everyday sparkle • festive statement • gifting</p>
+          <h1>Jewellery that feels made for your moment.</h1>
+          <p class="hero-text">
+            Explore a polished online catalogue inspired by modern jewellery shopping:
+            curated edits, quick category browsing, and direct WhatsApp assistance for
+            current prices, availability, and styling help.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#bestsellers">Shop Bestsellers</a>
+            <a class="button button-secondary" href="#collections">Explore Collections</a>
+          </div>
+        </div>
+
+        <div class="hero-showcase" aria-label="Featured jewellery preview">
+          <article class="showcase-card showcase-card--large">
+            <img src="assets/wedding-exclusive.png" alt="Wedding necklace set" />
+            <div>
+              <span>Wedding Edit</span>
+              <strong>Statement sets</strong>
+            </div>
+          </article>
+          <article class="showcase-card">
+            <img src="assets/pure-silver-swarovski.png" alt="Pure silver Swarovski pendant set" />
+            <div>
+              <span>925 Silver</span>
+              <strong>Swarovski shine</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Store benefits">
+        <p>WhatsApp design support</p>
+        <p>Silver & fashion jewellery</p>
+        <p>Festive and wedding edits</p>
+        <p>Mon-Sat 11 AM-8 PM</p>
+      </section>
+
+      <section class="section category-section" id="categories">
+        <div class="section-heading section-heading--center">
+          <p class="eyebrow">Shop by category</p>
+          <h2>Find your sparkle faster.</h2>
+        </div>
+
+        <div class="category-rail">
+          <a class="category-chip" href="#collections">
+            <img src="assets/pure-silver-swarovski.png" alt="Silver jewellery" />
+            <span>Silver</span>
+          </a>
+          <a class="category-chip" href="#collections">
+            <img src="assets/polki-exclusive.png" alt="Polki jewellery" />
+            <span>Polki</span>
+          </a>
+          <a class="category-chip" href="#collections">
+            <img src="assets/moissanite-exclusive.png" alt="Moissanite jewellery" />
+            <span>Moissanite</span>
+          </a>
+          <a class="category-chip" href="#collections">
+            <img src="assets/wedding-exclusive.png" alt="Wedding jewellery" />
+            <span>Wedding</span>
+          </a>
+          <a class="category-chip" href="#experience">
+            <img src="assets/pure-silver-swarovski.png" alt="Gift jewellery" />
+            <span>Gifts</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="collections">
+        <div class="section-heading">
+          <p class="eyebrow">Curated collections</p>
+          <h2>Fresh edits with boutique-style browsing.</h2>
+          <p>
+            Large visual tiles, soft gradients, and quick enquiry links make the site
+            feel closer to a premium online jewellery storefront while keeping your
+            current WhatsApp-first buying flow.
+          </p>
+        </div>
+
+        <div class="collection-grid">
+          <article class="collection-card collection-card-tall">
+            <img src="assets/wedding-exclusive.png" alt="Wedding exclusive necklace set from Kolkata Jewellers" />
+            <span>Wedding</span>
+            <h3>Wedding exclusive set.</h3>
+            <p>A statement necklace and earring set for bridal and festive styling.</p>
+            <a class="text-link" href="https://api.whatsapp.com/send?phone=919624135176&text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20the%20wedding%20exclusive%20set." target="_blank" rel="noreferrer">Ask about this set</a>
+          </article>
+          <article class="collection-card">
+            <img class="collection-image-swarovski" src="assets/pure-silver-swarovski.png" alt="Pure silver Swarovski exclusive pendant set from Kolkata Jewellers" />
+            <span>Pure Silver</span>
+            <h3>Swarovski exclusive</h3>
+            <p>A pure silver pendant and earring set with a refined sparkle.</p>
+            <a class="text-link" href="https://api.whatsapp.com/send?phone=919624135176&text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20the%20pure%20silver%20Swarovski%20exclusive%20set." target="_blank" rel="noreferrer">Ask about this set</a>
+          </article>
+          <article class="collection-card">
+            <img src="assets/moissanite-exclusive.png" alt="Moissanite exclusive necklace set from Kolkata Jewellers" />
+            <span>Moissanite</span>
+            <h3>Moissanite exclusive</h3>
+            <p>A premium necklace and earring set for occasions and celebrations.</p>
+            <a class="text-link" href="https://api.whatsapp.com/send?phone=919624135176&text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20the%20moissanite%20exclusive%20set." target="_blank" rel="noreferrer">Ask about this set</a>
+          </article>
+          <article class="collection-card">
+            <img src="assets/polki-exclusive.png" alt="Polki exclusive necklace set from Kolkata Jewellers" />
+            <span>Polki</span>
+            <h3>Polki exclusive</h3>
+            <p>A layered polki-style set made for elegant festive looks.</p>
+            <a class="text-link" href="https://api.whatsapp.com/send?phone=919624135176&text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20the%20polki%20exclusive%20set." target="_blank" rel="noreferrer">Ask about this set</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section product-section" id="bestsellers">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">Similar designs</p>
+            <h2>Bestseller-style product cards.</h2>
+          </div>
+          <a class="button button-secondary" href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20please%20share%20your%20latest%20bestseller%20designs." target="_blank" rel="noreferrer">View all on WhatsApp</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <button class="wishlist" type="button" aria-label="Add wedding set to wishlist">♡</button>
+            <img src="assets/wedding-exclusive.png" alt="Wedding exclusive necklace set" />
+            <div class="product-meta"><span>Necklace Set</span><strong>₹ Enquire</strong></div>
+            <h3>Wedding Exclusive Set</h3>
+            <p>Bridal-inspired necklace and earrings.</p>
+          </article>
+          <article class="product-card">
+            <button class="wishlist" type="button" aria-label="Add Swarovski set to wishlist">♡</button>
+            <img src="assets/pure-silver-swarovski.png" alt="Pure silver Swarovski pendant set" />
+            <div class="product-meta"><span>925 Silver</span><strong>₹ Enquire</strong></div>
+            <h3>Swarovski Exclusive</h3>
+            <p>Minimal pendant set with elegant sparkle.</p>
+          </article>
+          <article class="product-card">
+            <button class="wishlist" type="button" aria-label="Add Moissanite set to wishlist">♡</button>
+            <img src="assets/moissanite-exclusive.png" alt="Moissanite exclusive necklace set" />
+            <div class="product-meta"><span>Moissanite</span><strong>₹ Enquire</strong></div>
+            <h3>Moissanite Exclusive</h3>
+            <p>Occasion-ready shine for celebrations.</p>
+          </article>
+          <article class="product-card">
+            <button class="wishlist" type="button" aria-label="Add Polki set to wishlist">♡</button>
+            <img src="assets/polki-exclusive.png" alt="Polki exclusive necklace set" />
+            <div class="product-meta"><span>Polki</span><strong>₹ Enquire</strong></div>
+            <h3>Polki Exclusive</h3>
+            <p>Layered festive styling with classic detail.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section heritage" id="heritage">
+        <div class="heritage-copy">
+          <p class="eyebrow">Kolkata Jewellers advantage</p>
+          <h2>Online discovery with personal store assistance.</h2>
+          <p>
+            This refreshed experience mirrors the clarity of a jewellery e-commerce
+            site: searchable browsing, category shortcuts, product cards, and rich
+            store information. Customers can still complete the enquiry directly
+            through WhatsApp, phone, email, or Instagram.
+          </p>
+        </div>
+
+        <div class="heritage-panel">
+          <div>
+            <strong>Fast Enquiries</strong>
+            <span>WhatsApp directly for product details, prices, and availability.</span>
+          </div>
+          <div>
+            <strong>Social Catalogue</strong>
+            <span>Follow Instagram for new designs, updates, and product posts.</span>
+          </div>
+          <div>
+            <strong>Store Hours</strong>
+            <span>Open Monday to Saturday from 11 AM to 8 PM.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-promo" id="experience">
+        <div>
+          <p class="eyebrow">How to order</p>
+          <h2>Browse, message, confirm.</h2>
+          <p>Choose a design, send us your preferred style, and confirm pricing and availability directly with the store.</p>
+        </div>
+        <div class="step-grid">
+          <article><span>01</span><strong>Browse</strong><p>Explore categories, collections, and product cards.</p></article>
+          <article><span>02</span><strong>Message</strong><p>Ask on WhatsApp, phone, email, or Instagram.</p></article>
+          <article><span>03</span><strong>Confirm</strong><p>Finalize item, price, timing, pickup, or delivery.</p></article>
+        </div>
+      </section>
+
+      <section class="section store-section" id="stores">
+        <div class="store-card">
+          <div>
+            <p class="eyebrow">Delivery & stores</p>
+            <h2>Your local jewellery help desk.</h2>
+            <p>Enter a pincode-style enquiry on WhatsApp and we will help with current availability, try-on options, and pickup or delivery details.</p>
+          </div>
+          <a class="button button-primary" href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20please%20help%20me%20with%20availability%20for%20my%20location." target="_blank" rel="noreferrer">Check availability</a>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact Kolkata Jewellers</p>
+            <h2>Message us for silver and fashion jewellery items.</h2>
+            <p>Reach out during opening hours for current designs, prices, and availability. Address can be added once confirmed.</p>
+          </div>
+
+          <div class="contact-details">
+            <p><strong>Phone:</strong> <a href="tel:+919624135176">+91 96241 35176</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/919624135176?text=Hi%20Kolkata%20Jewellers%2C%20I%20want%20to%20enquire%20about%20your%20jewellery%20items." target="_blank" rel="noreferrer">Message on WhatsApp</a></p>
+            <p><strong>Email:</strong> <a href="mailto:bhavinbhansali20@gmail.com">bhavinbhansali20@gmail.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/kolkatajewellers?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer">@kolkatajewellers</a></p>
+            <p><strong>Hours:</strong> Monday to Saturday, 11 AM to 8 PM</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <strong>Kolkata Jewellers</strong>
+          <p>A premium silver & fashion jewellery store.</p>
+        </div>
+        <div>
+          <strong>Shop</strong>
+          <a href="#categories">Rings</a>
+          <a href="#categories">Earrings</a>
+          <a href="#collections">Wedding</a>
+        </div>
+        <div>
+          <strong>Services</strong>
+          <a href="#stores">Availability</a>
+          <a href="#experience">How to order</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <strong>Connect</strong>
+          <a href="https://wa.me/919624135176" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="https://instagram.com/kolkatajewellers?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="mailto:bhavinbhansali20@gmail.com">Email</a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Kolkata Jewellers. A Premium Silver & Fashion Jewellery Store.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
     <meta property="og:title" content="Kolkata Jewellers" />
     <meta
       property="og:description"
